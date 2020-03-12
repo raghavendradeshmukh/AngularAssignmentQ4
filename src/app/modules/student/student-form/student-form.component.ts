@@ -9,7 +9,7 @@ import { Student } from 'src/app/model/student.model';
 })
 export class StudentFormComponent implements OnInit {
 
-  constructor(private studentService:StudentsService) { }
+  constructor(public studentService:StudentsService) { }
 
   ngOnInit() {
   }
